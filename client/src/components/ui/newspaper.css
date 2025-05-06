@@ -1,0 +1,41 @@
+/* Newspaper styles */
+.newspaper-container {
+  background-color: #F5F5F5;
+  font-family: 'PT Serif', serif;
+  line-height: 1.5;
+  color: #000000;
+}
+
+/* Typography */
+.font-headline {
+  font-family: 'Playfair Display', serif;
+}
+
+.font-body {
+  font-family: 'PT Serif', serif;
+}
+
+.font-mono {
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* Background color */
+.bg-paper {
+  background-color: #F5F5F5;
+}
+
+/* Print-style formatting */
+@media print {
+  .newspaper-container {
+    background-color: white;
+    border: none !important;
+    box-shadow: none !important;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .newspaper-container {
+    padding: 1rem;
+  }
+}
